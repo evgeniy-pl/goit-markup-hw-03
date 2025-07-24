@@ -43,21 +43,28 @@ p {
 .section {
 }
 
+img {
+  display: block;
+}
+
 /* heder */
 
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15px 0 15px;
 }
 
 .nav-header {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -68,7 +75,9 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin: 24px 0;
+  /* margin: 24px 0;
+  margin-right: 76px */
+  margin: 24px 0 24px 76px;
 }
 
 .header-logo-parts {
@@ -81,7 +90,13 @@ p {
   gap: 40px;
   list-style: none;
   width: 261px;
-  margin: 24px 0 24px 76px;
+  /* margin: 24px 0 24px 76px; */
+}
+
+.nav-item {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-header-list-link {
@@ -105,6 +120,7 @@ p {
   list-style: none;
   margin: 24px;
   gap: 40px;
+  justify-content: flex-end;
 }
 
 .address-list-link {
@@ -137,6 +153,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -146,10 +163,10 @@ p {
   margin-bottom: 48px;
 }
 
-.hero-controls {
+/* .hero-controls {
   display: flex;
   padding: 16px 32px;
-}
+} */
 
 .button-hero {
   cursor: pointer;
@@ -161,9 +178,10 @@ p {
   background-color: #4d5ae5;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 0 auto;
+  display: block;
 }
 
 .button-hero:hover {
@@ -175,6 +193,10 @@ p {
 
 /* Order Servise */
 
+.feature {
+  padding: 120px 0;
+}
+
 .benefits-list {
 }
 
@@ -184,12 +206,11 @@ p {
 .feature-list {
   display: flex;
   list-style: none;
-  gap: 24px;
-  padding-left: 0;
 }
 
 .feature-list-item {
   border: 1px solid #e7e9fc;
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-item {
@@ -218,7 +239,7 @@ p {
 .team-list {
   display: flex;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
   gap: 24px;
   justify-content: space-between;
   padding-bottom: 120px;
@@ -252,7 +273,7 @@ p {
   text-align: center;
   color: #2e2f42;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
 }
 
 .work-speciality {
