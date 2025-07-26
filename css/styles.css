@@ -196,7 +196,7 @@ img {
 .feature-list {
   display: flex;
   list-style: none;
-  /* gap: 24px; */
+  gap: 24px;
 }
 
 .feature-list-item {
@@ -226,7 +226,7 @@ img {
 
 .team-list {
   display: flex;
-  /* gap: 24px; */
+  gap: 24px;
   margin: 0;
   padding: 0;
   list-style: none;
