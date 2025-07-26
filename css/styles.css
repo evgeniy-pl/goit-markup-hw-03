@@ -233,7 +233,7 @@ img {
 }
 
 .team-list-item {
-  flex-basis: calc((100 - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   background-color: #ffffff;
   border: 1px solid #e7e9fc;
@@ -305,7 +305,7 @@ img {
 }
 
 .portfolio-list-item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
   background-color: #ffffff;
 }
 
