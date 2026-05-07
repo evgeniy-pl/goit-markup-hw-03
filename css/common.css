@@ -18,13 +18,10 @@ body {
   background-color: fff;
   color: #434455;
   font-family: "Roboto", sans-serif;
+  margin: 0 15px;
 }
 
 a {
   text-decoration: none;
   font-style: normal;
-}
-
-ul {
-  list-style: none;
 }

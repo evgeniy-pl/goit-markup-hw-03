@@ -2,7 +2,14 @@ footer {
   background-color: #2e2f42;
 }
 
+.footer-container {
+  padding: 100px;
+  width: 264px;
+}
+
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
 }
 
@@ -11,7 +18,6 @@ footer {
 }
 
 .footer-text {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
