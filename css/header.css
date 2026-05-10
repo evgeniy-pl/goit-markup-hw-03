@@ -26,10 +26,6 @@
   display: flex;
   margin-left: 76px;
   gap: 40px;
-  /* align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px; */
 }
 
 .nav-item-link {
