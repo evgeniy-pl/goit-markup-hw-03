@@ -1,3 +1,15 @@
-.taem-item {
-  background-color: #fff;
+.portfolio-title {
+  padding-top: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 72px;
+}
+
+.portfolio-content {
+  margin-top: 32px;
+  margin-bottom: 120px;
 }
