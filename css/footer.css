@@ -1,27 +1,22 @@
-footer {
+.footer {
   background-color: #2e2f42;
-}
-
-.footer-container {
-  margin-right: 1020px;
   padding: 100px 0;
-  width: 264px;
 }
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  color: #4d5ae5;
 }
 
 .footer-logo-part {
-  color: #fff;
+  color: #f4f4fd;
 }
 
 .footer-text {
-  font-weight: 400;
+  max-width: 264px;
+
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
